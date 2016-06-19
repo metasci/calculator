@@ -1,0 +1,66 @@
+/* inset display */
+/* give calc body faint shadow */
+
+
+
+
+body {
+    background-color: #804d00;
+    
+}
+
+.calc {
+    background-color: #e68a00;
+    margin: 100px auto;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 1px;    
+    -webkit-box-shadow: 10px 10px 22px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 22px -8px rgba(0,0,0,1);
+    box-shadow: 10px 10px 22px -8px rgba(0,0,0,1);
+}
+
+h3 {
+    color: #ffebcc;
+    font-family: "lobster two";
+}
+
+.display {
+    background-color: #ffebcc;
+    margin: auto;
+    height: 50px;
+    width: 90%;
+    padding: 10px 0;
+    font-size: 20px;
+    -webkit-box-shadow: inset 10px 10px 5px -5px rgba(0,0,0,0.35);
+    -moz-box-shadow: inset 10px 10px 5px -5px rgba(0,0,0,0.35);
+    box-shadow: inset 10px 10px 5px -5px rgba(0,0,0,0.35);
+    
+}
+
+.buttons{
+    padding: 5px 5px;
+    margin: 25px auto;
+    width: 350px;
+    height: 350px;
+}
+
+.btn {
+    font-size: 25px;
+    color: #e68a00;
+    margin: 5px 1px;
+    height: 50px;
+    width: 80px;
+}
+
+
+
+.me {
+    margin: 100px 0;
+    text-align: center;
+}
+.me a {
+    color: white;
+    text-decoration: none;
+}
